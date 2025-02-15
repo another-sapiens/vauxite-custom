@@ -12,6 +12,9 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf install -y tmux 
 
+# Install fish shell, xrandr and plank
+dnf install -y fish xrandr plank
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
