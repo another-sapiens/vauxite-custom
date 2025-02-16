@@ -12,8 +12,8 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf install -y tmux 
 
-# Install fish shell, xrandr and plank
-dnf install -y fish xrandr plank
+# Install extra packages
+dnf install -y fish xrandr plank micro
 
 # Use a COPR Example:
 #
