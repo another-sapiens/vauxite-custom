@@ -13,7 +13,7 @@ set -ouex pipefail
 dnf install -y tmux 
 
 # Install extra packages
-dnf install -y fish xrandr plank micro kde-connect
+dnf install -y fish xrandr plank micro
 
 # Use a COPR Example:
 #
